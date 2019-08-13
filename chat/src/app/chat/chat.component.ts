@@ -32,7 +32,7 @@ export class ChatComponent implements OnInit {
       this.socketService.send(this.messagecontent);
       this.messagecontent = null;
     } else {
-      console.log("no message bruv");
+      console.log("no message to send");
     }
   }
 }
